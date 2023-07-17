@@ -1,5 +1,4 @@
 ﻿using CMS;
-using XperienceCommunity.Locator;
 using XperienceCommunity.Locator.Admin;
 
 [assembly: RegisterModule(typeof(LocatorModule))]

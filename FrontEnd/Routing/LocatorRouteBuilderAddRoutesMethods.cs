@@ -11,50 +11,16 @@ namespace XperienceCommunity.Locator
             if (instance == null)
                 throw new ArgumentNullException(nameof(instance));
 
-
-            //instance.MapRoute("Citro.Locator.Configuration", $"{LOCATOR_BASE_ROUTE}/Configuration.json", new
-            //{
-            //    controller = "LocatorConfiguration",
-            //    action = "Config"
-            //},
-            //    namespaces: new[]
-            //    {
-            //        typeof(XperienceLocatorLocation).Namespace
-            //    }
-            //);
-
             instance.MapRoute("XperienceCommuntiy.SearchLocations", $"{LOCATOR_BASE_ROUTE}/Search", new
                 {
-                    controller = "Locator",
+                    controller = "XperienceLocator",
                     action = "Search"
                 },
                 namespaces: new[]
                 {
-                    typeof(LocatorLocation).Namespace
+                    typeof(XperienceLocatorController<>).Namespace
                 }
             );
-
-            //instance.MapRoute("Citro.Locator.Localization", $"{LOCATOR_BASE_ROUTE}/Localization.json", new
-            //{
-            //    controller = "Localization",
-            //    action = nameof(LocalizationController.Get),
-            //},
-            //    namespaces: new[]
-            //    {
-            //        typeof(LocatorConfigurationController).Namespace
-            //    }
-            //);
-
-            //instance.MapRoute("Citro.Locator.Filters", $"{LOCATOR_BASE_ROUTE}/Filters", new
-            //{
-            //    controller = "LocatorFilter",
-            //    action = nameof(LocatorFilterController.Get)
-            //},
-            //    namespaces: new[]
-            //    {
-            //        typeof(LocatorFilterController).Namespace
-            //    }
-            //);
         }
     }
 }

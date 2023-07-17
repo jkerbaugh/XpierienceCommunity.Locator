@@ -1,0 +1,10 @@
+C:\Users\jkerb\source\repos\XperienceLocationManagement\XperienceCommunity.Locator\Admin\XperienceCommunity.Locator.Admin\bin\Debug\netstandard2.0\XperienceCommunity.Locator.Admin.deps.json
+C:\Users\jkerb\source\repos\XperienceLocationManagement\XperienceCommunity.Locator\Admin\XperienceCommunity.Locator.Admin\bin\Debug\netstandard2.0\XperienceCommunity.Locator.Admin.dll
+C:\Users\jkerb\source\repos\XperienceLocationManagement\XperienceCommunity.Locator\Admin\XperienceCommunity.Locator.Admin\bin\Debug\netstandard2.0\XperienceCommunity.Locator.Admin.pdb
+C:\Users\jkerb\source\repos\XperienceLocationManagement\XperienceCommunity.Locator\Admin\XperienceCommunity.Locator.Admin\obj\Debug\netstandard2.0\XperienceCommunity.Locator.Admin.csproj.AssemblyReference.cache
+C:\Users\jkerb\source\repos\XperienceLocationManagement\XperienceCommunity.Locator\Admin\XperienceCommunity.Locator.Admin\obj\Debug\netstandard2.0\XperienceCommunity.Locator.Admin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jkerb\source\repos\XperienceLocationManagement\XperienceCommunity.Locator\Admin\XperienceCommunity.Locator.Admin\obj\Debug\netstandard2.0\XperienceCommunity.Locator.Admin.AssemblyInfoInputs.cache
+C:\Users\jkerb\source\repos\XperienceLocationManagement\XperienceCommunity.Locator\Admin\XperienceCommunity.Locator.Admin\obj\Debug\netstandard2.0\XperienceCommunity.Locator.Admin.AssemblyInfo.cs
+C:\Users\jkerb\source\repos\XperienceLocationManagement\XperienceCommunity.Locator\Admin\XperienceCommunity.Locator.Admin\obj\Debug\netstandard2.0\XperienceCommunity.Locator.Admin.csproj.CoreCompileInputs.cache
+C:\Users\jkerb\source\repos\XperienceLocationManagement\XperienceCommunity.Locator\Admin\XperienceCommunity.Locator.Admin\obj\Debug\netstandard2.0\XperienceCommunity.Locator.Admin.dll
+C:\Users\jkerb\source\repos\XperienceLocationManagement\XperienceCommunity.Locator\Admin\XperienceCommunity.Locator.Admin\obj\Debug\netstandard2.0\XperienceCommunity.Locator.Admin.pdb
