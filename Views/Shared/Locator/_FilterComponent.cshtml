@@ -1,0 +1,16 @@
+﻿@model LocatorFilterComponent
+
+@{
+    var fieldBuilder = Html.Locator().FormBuilderFor(Model);
+}
+
+@using (fieldBuilder.BeginWrapper())
+{
+    @fieldBuilder.Label()
+
+    @await fieldBuilder.EditorAsync()
+
+    @fieldBuilder.HelpText()
+
+    @fieldBuilder.ValidationMessage()
+}

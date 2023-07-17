@@ -1,0 +1,18 @@
+﻿@model IEnumerable<LocatorFilterComponent>
+@{
+    var attributes = new Dictionary<string, object>()
+    {
+        {"id", "locator-filter-form"},
+        {"data-locator-form", null},
+        { "data-locator-ajax-update", "#locator-results"}
+    };
+}
+
+@using (Html.BeginRouteForm("XperienceCommuntiy.SearchLocations", FormMethod.Post, attributes))
+{
+    @Html.Locator().ValidationSummary();
+
+    @await Html.Locator().FilterFieldsAsync(Model)
+
+    @await Html.Locator().SubmitAsync()
+}
